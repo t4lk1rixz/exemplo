@@ -1,0 +1,160 @@
+body{
+background-color: #000000;
+}
+
+.flex-container{
+display: flex;
+background-color: rgb(255, 255, 255);
+color: white;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.item-1{
+width: 15%;
+height: 20vh;
+background-color: #006400;
+}
+
+#logo{
+width:190px;
+height: auto;
+padding: 5px 5px 5px 5px;
+}
+
+.item-2{
+width: 85%;
+height: 20vh;
+background-color: #006400;
+}
+
+.item-3{
+width: 100%;
+height: 30vh;
+background-color: #d3d3d3;
+}
+
+.baner0{
+width: 50%;
+margin: 10px 50% auto 23% ;
+}
+
+.item-4{
+flex-wrap: wrap;
+flex-direction: row;
+display: flex;
+width: 70%;
+height: 70vh;
+background-color: #DC143C;
+}
+
+.direita{
+width: 50%;
+height: 70vh;
+background-color: #ffffff;
+}
+
+.not1{
+width: 85%;
+margin: 15px 50% auto 7% ;
+}
+
+.p1{
+font-family: 'Lucida Sans', Verdana, sans-serif;
+font-style: initial;
+font-size: 17px;
+color: #127e12;
+margin: 15px 8% auto 8% ;
+}
+
+.esquerda{
+width: 50%;
+height: 70vh;
+background-color: #ffffff;
+}
+
+.baners{
+font-family: 'Lucida Sans', Verdana, sans-serif;
+font-style: initial;
+font-size: 12px;
+color: #22b722;
+margin-top: 15px;
+}
+
+.baners1{
+font-family: sans-serif;
+font-style: italic;
+font-size: 10px;
+color: #979d97;
+margin-right: 4px;
+}
+
+.texto{
+float: left;
+}
+
+.not2{
+width: 40%;
+margin: 15px 2% 7px 0% ;
+float: left;
+}
+
+.not3{
+width: 40%;
+margin: auto 2% 7px 0% ;
+float: left;
+}
+
+.not4{
+width: 40%;
+margin: auto 2% 7px 0% ;
+float: left;
+}
+
+.item-5{
+width: 30%;
+height: 70vh;
+background-color: #d3d3d3;
+}
+
+.baner1{
+width: 65%;
+margin: 15px 50% 7px 18% ;
+}
+
+.baner2{
+width: 65%;
+margin: 10px 50% 7px 18% ;
+}
+
+.baner3{
+width: 65%;
+margin: 10px 50% 7px 18% ;
+}
+
+.item-6{
+width: 100%;
+height: 20vh;
+background-color: #006400;
+}
+
+@media (max-width: 760px){
+.item-5, .item-3, .item-2{
+width: 0%;
+height: 0%;
+}
+.direita, .esquerda, .item-4{
+width: 100%;
+height: auto;
+}
+.item-6, .item-1{
+width: 100%;
+height: 14vh;
+}
+#logo{
+width:50%;
+height: auto;
+padding: 5px 5px 5px 5px;
+margin: 10px 50% 20px 22%;
+}
+}
